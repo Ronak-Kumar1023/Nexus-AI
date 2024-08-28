@@ -26,26 +26,26 @@ Nexus AI is a Streamlit application that leverages the OpenAI API to create an i
 git clone https://github.com/Ronak-Kumar1023/Nexus-AI.git 
 ```
 
-2. Set up a virtual environment (optional but recommended):
+2. **Set up a virtual environment (optional but recommended):**
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-3. Install required packages:
+3. **Install required packages:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables: Create a .env file in the root directory and add your OpenAI API key:
+4. **Set up environment variables: Create a .env file in the root directory and add your OpenAI API key:**
 
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-5. Run the Streamlit application:
+5. **Run the Streamlit application:**
 
 ```bash
 streamlit run app.py
